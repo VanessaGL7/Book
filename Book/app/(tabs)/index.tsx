@@ -7,7 +7,6 @@ import Background_one from '@/components/Background_one';
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Background_one />
       <Text style={styles.title}>Tab One</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/(tabs)/index.tsx" />
