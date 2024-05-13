@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('id_user')->nullable();
             $table->unsignedBigInteger('id_book')->nullable();
             $table->integer('valoration');
-            $table->string('commentary')->nullable();
+            $table->text('commentary');
             $table->timestamps();
 
             $table->foreign('id_user')->references('id_user')->on('user');
