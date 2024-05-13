@@ -2226,7 +2226,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password genevaloration etc.",
             "homepage": "https://nette.org",
             "keywords": [
                 "array",
@@ -3163,7 +3163,7 @@
             "license": [
                 "MIT"
             ],
-            "description": "A PHP library for generating and working with universally unique identifiers (UUIDs).",
+            "description": "A PHP library for genevaloration and working with universally unique identifiers (UUIDs).",
             "keywords": [
                 "guid",
                 "identifier",
@@ -5719,8 +5719,8 @@
             "suggest": {
                 "doctrine/orm": "Required to use Faker\\ORM\\Doctrine",
                 "ext-curl": "Required by Faker\\Provider\\Image to download images.",
-                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
-                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
+                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for genevaloration random HTML.",
+                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for genevaloration real Russian text.",
                 "ext-mbstring": "Required for multibyte Unicode string functionality."
             },
             "type": "library",
